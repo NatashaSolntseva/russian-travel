@@ -1,0 +1,23 @@
+.page__section {
+    max-width: 1280px;
+    padding: 0 48px; /*боковые*/
+    box-sizing: border-box;
+    margin: 0 auto;
+    /*border: 1px solid red;*/
+}
+
+@media (max-width: 1023px) {
+    .page__section {
+      padding: 0 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    .page__section {
+      padding: 0 16px;
+    }
+}
+
+/*3 значения: задается отступ сначала для верхней стороны, 
+потом одновременно для левой и правой, а затем – для нижней:
+padding: 3px 6px 9px;*/
