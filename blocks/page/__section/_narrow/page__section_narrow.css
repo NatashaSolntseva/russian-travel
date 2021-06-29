@@ -1,11 +1,9 @@
 .page__section_narrow {
-    max-width: 1080px;
-    /*border: 1px solid greenyellow;*/
+  max-width: 1080px;  
 }
 
 @media (max-width: 1023px) {
-    .page__section_narrow {
-      padding: 0 16px 0 16px;
-    }  
-  }
-  
+  .page__section_narrow {
+    padding: 0 16px 0 16px;
+  }  
+}
