@@ -1,9 +1,9 @@
-.page__section_narrow {
+.page__section_type_type-narrow {
   max-width: 1080px;  
 }
 
 @media (max-width: 1023px) {
-  .page__section_narrow {
+  .page__section_type_type-narrow {
     padding: 0 16px 0 16px;
   }  
 }

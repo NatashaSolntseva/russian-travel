@@ -1,16 +1,16 @@
-.page__section_wider {
+.page__section_type_type-wider {
   max-width: 984px;    
   padding: 0;  
 }
 
 @media screen and (max-width: 1024px) {
-  .page__section_wider {
+  .page__section_type_type-wider {
     max-width: 928px;    
   }
 }
 
 @media screen and (max-width: 768px) {
-  .page__section_wider {
+  .page__section_type_type-wider {
     max-width: 100%;    
   }
 }
